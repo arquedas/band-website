@@ -1,31 +1,19 @@
 body {
-    background: url("images/back1.jpg") center no-repeat; 
-    background-size: cover;
-    
+    background: url("images/back1.jpg") no-repeat; 
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   
    
 }
 
-.carousel-inner img {
-    width: 80%; 
-    margin: auto;
-    padding-top: 150px;
-}
 
-.carousel-caption h3 {
-    color: #fff !important;
-}
 
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-}
 
 .navbar {
     margin-bottom: 0;
@@ -33,9 +21,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 18%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .4);
     border: 0;
 }
 
@@ -96,14 +83,20 @@ body {
 
 
     .logo {
-    height: 10vh; 
-   width: 20vw;
+    height: 35px; 
+   width: 90px;
    padding-top: 0;
    
 }
 
+@media (max-width: 768px) {
+    .logo {
+        
+    }
+}
+
 .quotes .page-header {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 blockquote.quote {
@@ -113,10 +106,10 @@ blockquote.quote {
 
 .quotes {
     background-color: rgba(255,255,255, 0.9);
-    margin-top: 150px;
+    margin-top: 20%;
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 footer {
@@ -139,6 +132,130 @@ h2 {
 }
 
 .row {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.media-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.carousel-inner  img {
+    width: 100%; /* Set width to 100% */
+   
+}
+
+.carousel {
+    margin-top: 20%;
+    width: 100%;
+    
+    
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+.audio {
+    width: 100%;
+    height: auto;
+}
+
+.news {
+    background-color: rgba(255,255,255, 0.9);
+    color: black;
+    
+    padding: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.page-header-1 {
     padding-bottom: 20px;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    
+    margin-bottom: 20px;
+    color: black;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+h5 {
+    color: black;
+}
+
+.row-contact {
+    background-color: rgba(255,255,255, 0.7);
     padding-top: 20px;
+    margin-top: 20%;
+    padding-bottom: 20px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
