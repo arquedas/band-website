@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body {
-    background: url("images/back1.jpg") no-repeat; 
+    background: url("images/back1.jpg") no-repeat;
     background-position: top;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -80,7 +80,7 @@ body {
 }
 
 .logo {
-    height: 35px; 
+    height: 35px;
     width: 90px;
     padding-top: 0;
 }
@@ -91,11 +91,11 @@ body {
 
 blockquote.quote {
     border-left: 0;
-    
+
 }
 
 .quotes {
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     margin-top: 20%;
     color: black;
     padding-left: 0px;
@@ -140,9 +140,9 @@ video {
     position: relative;
 }
 
-.carousel-inner  img {
-    width: 100%; 
-   
+.carousel-inner img {
+    width: 100%;
+
 }
 
 .carousel {
@@ -156,7 +156,7 @@ video {
 
 @media (max-width: 600px) {
     .carousel-caption {
-        display: none; 
+        display: none;
     }
 }
 
@@ -166,13 +166,14 @@ video {
 }
 
 .news {
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    
+
     padding: 20px;
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .page-header {
     padding-bottom: 20px;
 }
@@ -180,7 +181,7 @@ video {
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 700;
-    
+
     margin-bottom: 20px;
     color: black;
 }
@@ -192,7 +193,7 @@ video {
 }
 
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #e84610;
@@ -207,8 +208,9 @@ h5 {
 h6 {
     font-weight: 700;
 }
+
 .row-contact {
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 20px;
     margin-top: 20%;
     padding-bottom: 20px;
@@ -245,8 +247,8 @@ h6 {
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+    background: #bb0000;
+    color: white;
 }
 
 .audio {
@@ -260,4 +262,3 @@ h6 {
     border: 0;
     background-color: black;
 }
-
